@@ -1,0 +1,14 @@
+CRITICAL - 2023-09-23 23:48:41 --> Undefined array key "patient_iin "
+in APPPATH/Controllers/Heights.php on line 42.
+ 1 APPPATH/Controllers/Heights.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_iin "', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Heights.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:49:37 --> Undefined array key "patient_iin "
+in APPPATH/Controllers/Heights.php on line 42.
+ 1 APPPATH/Controllers/Heights.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patient_iin "', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Heights.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

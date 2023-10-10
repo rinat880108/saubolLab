@@ -1,0 +1,55 @@
+CRITICAL - 2023-09-17 21:28:53 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:32:27 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:32:45 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:33:03 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:33:12 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:46:35 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:47:07 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 21:47:13 --> Class "App\Controllers\IncomingRequest" not found
+in APPPATH/Controllers/Persons.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:09:28 --> Undefined array key "lang"
+in APPPATH/Controllers/Persons.php on line 72.
+ 1 APPPATH/Controllers/Persons.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lang"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php', 72)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->getPerson()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

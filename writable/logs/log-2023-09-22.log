@@ -1,0 +1,27 @@
+CRITICAL - 2023-09-22 01:58:21 --> Class "App\Controllers\DateTime" not found
+in APPPATH/Controllers/Patients.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patients->getOne()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 02:03:26 --> Class "App\Controllers\Time" not found
+in APPPATH/Controllers/Patients.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patients->getOne()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patients))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 02:04:28 --> CodeIgniter\I18n\Time::createFromDate(): Argument #1 ($year) must be of type ?int, string given, called in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Patients.php on line 117
+in SYSTEMPATH/I18n/TimeTrait.php on line 187.
+ 1 APPPATH/Controllers/Patients.php(117): CodeIgniter\I18n\Time::createFromDate('1983-04-30 00:00:00')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patients->getOne()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patients))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 02:10:31 --> "Y-M-d H:i:s" is not a valid datetime format
+in SYSTEMPATH/I18n/TimeTrait.php on line 243.
+ 1 SYSTEMPATH/I18n/TimeTrait.php(243): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('Y-M-d H:i:s')
+ 2 APPPATH/Controllers/Patients.php(117): CodeIgniter\I18n\Time::createFromFormat('Y-M-d H:i:s', '1983-04-30 00:00:00')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Patients->getOne()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patients))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

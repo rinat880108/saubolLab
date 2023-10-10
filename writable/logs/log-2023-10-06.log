@@ -1,0 +1,206 @@
+ERROR - 2023-10-06 07:13:54 --> mysqli_sql_exception: Column 'height' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `He...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `He...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `He...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `He...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Heights.php(51): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:13:54 --> Column 'height' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (:height:, :patient_iin:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Heights.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:13:54 --> mysqli_sql_exception: Column 'weight' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `We...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `We...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `We...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `We...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Weights.php(51): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Weights->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weights))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:13:54 --> Column 'weight' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:13:54\', \'2023-10-06 07:13:54\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (:weight:, :patient_iin:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Weights.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Weights->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weights))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:13:55 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Smoke.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Smoke->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Smoke))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:13:56 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Activ.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Activ->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activ))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:13:56 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Place.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Place->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Place))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:13:57 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Dispancer.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dispancer->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispancer))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:13:57 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Disabled.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Disabled->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Disabled))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:14:10 --> mysqli_sql_exception: Column 'height' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `He...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `He...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `He...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `He...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Heights.php(51): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:14:10 --> Column 'height' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:10\', \'2023-10-06 07:14:10\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:10\', \'2023-10-06 07:14:10\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:10\', \'2023-10-06 07:14:10\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Heights` (`height`, `patient_iin`, `created_at`, `updated_at`) VALUES (:height:, :patient_iin:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Heights.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Heights->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heights))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:14:11 --> mysqli_sql_exception: Column 'weight' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `We...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `We...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `We...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `We...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Weights.php(51): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Weights->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weights))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-06 07:14:11 --> Column 'weight' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:11\', \'2023-10-06 07:14:11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:11\', \'2023-10-06 07:14:11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (NULL, \'840719399121\', \'2023-10-06 07:14:11\', \'2023-10-06 07:14:11\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Weights` (`weight`, `patient_iin`, `created_at`, `updated_at`) VALUES (:weight:, :patient_iin:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Weights.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Weights->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Weights))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:14:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Smoke.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Smoke->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Smoke))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:14:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Alco.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Alco->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alco))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:14:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Activ.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Activ->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activ))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:14:13 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Dispancer.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Dispancer->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispancer))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:14:13 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Disabled.php(45): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Disabled->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Disabled))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

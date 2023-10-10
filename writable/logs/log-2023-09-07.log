@@ -1,0 +1,28 @@
+CRITICAL - 2023-09-07 04:52:19 --> syntax error, unexpected variable "$is_valid_iin"
+in APPPATH/Helpers/iin_helper.php on line 19.
+ 1 APPPATH/Controllers/Persons.php(16): helper([...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 22:47:05 --> New expressions are not supported in this context
+in APPPATH/Controllers/Persons.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-07 22:47:31 --> New expressions are not supported in this context
+in APPPATH/Controllers/Persons.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-07 22:49:54 --> Typed property App\Controllers\Persons::$personsmodel must not be accessed before initialization
+in APPPATH/Controllers/Persons.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 23:04:29 --> Could not check compatibility between App\Controllers\Persons::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-07 23:05:40 --> Could not check compatibility between App\Controllers\Persons::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-07 23:08:34 --> Could not check compatibility between App\Controllers\Persons::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

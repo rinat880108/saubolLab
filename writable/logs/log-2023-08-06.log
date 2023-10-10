@@ -1,0 +1,266 @@
+CRITICAL - 2023-08-06 14:22:03 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:22:25 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:22:32 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:23:55 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:25:58 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:26:08 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 14:31:16 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:45:56 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:46:17 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:46:19 --> Class "App\Controllers\PersonsModel" not found
+in APPPATH/Controllers/Persons.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:56:22 --> Undefined array key "person_iin"
+in APPPATH/Controllers/Persons.php on line 25.
+ 1 APPPATH/Controllers/Persons.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "person_iin"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:56:57 --> Undefined array key "person_iin"
+in APPPATH/Controllers/Persons.php on line 25.
+ 1 APPPATH/Controllers/Persons.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "person_iin"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 16:59:15 --> Call to undefined method App\Controllers\Persons::setResponseFormat()
+in APPPATH/Controllers/Persons.php on line 66.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 17:11:32 --> Class "App\Controllers\DateTime" not found
+in APPPATH/Controllers/Persons.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-06 17:11:36 --> Class "App\Controllers\DateTime" not found
+in APPPATH/Controllers/Persons.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-06 17:14:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-06 17:14:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = :person_iin:
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-06 17:14:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-06 17:14:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = :person_iin:
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-06 17:17:15 --> mysqli_sql_exception: Table 'saubolme_mis.persons' doesn't exist in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-06 17:17:15 --> Table 'saubolme_mis.persons' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = :person_iin:
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-06 17:17:19 --> mysqli_sql_exception: Table 'saubolme_mis.persons' doesn't exist in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-06 17:17:19 --> Table 'saubolme_mis.persons' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `persons`
+WHERE `person_iin` = \'830430350473\'
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `persons`
+WHERE `person_iin` = :person_iin:
+AND `persons`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Persons.php(50): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Persons->savePerson()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Persons))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

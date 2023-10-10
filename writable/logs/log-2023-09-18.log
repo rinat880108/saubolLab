@@ -1,0 +1,21 @@
+CRITICAL - 2023-09-18 01:34:20 --> Class "App\Models\AddressTypesModel" not found
+in APPPATH/Controllers/Addresses.php on line 28.
+ 1 APPPATH/Controllers/BaseController.php(54): App\Controllers\Addresses->initStep2()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 01:36:19 --> Class "App\Models\AddressTypesModel" not found
+in APPPATH/Controllers/Addresses.php on line 28.
+ 1 APPPATH/Controllers/BaseController.php(54): App\Controllers\Addresses->initStep2()
+ 2 SYSTEMPATH/CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 01:37:27 --> Array to string conversion
+in APPPATH/Controllers/Addresses.php on line 79.
+ 1 APPPATH/Controllers/Addresses.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Addresses.php', 79)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getAddressList()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

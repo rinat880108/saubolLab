@@ -1,0 +1,364 @@
+CRITICAL - 2023-09-19 09:56:57 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 11:00:28 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 11:00:51 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 11:00:52 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 12:56:27 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 12:57:08 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 12:57:08 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 14:55:56 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 14:56:03 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 14:56:13 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 16:38:45 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 16:38:56 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 16:51:22 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 16:53:52 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 17:28:30 --> Undefined array key "Country_Name"
+in APPPATH/Models/CountriesModel.php on line 50.
+ 1 APPPATH/Models/CountriesModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Country_Name"', '/var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Models/CountriesModel.php', 50)
+ 2 APPPATH/Controllers/Addresses.php(78): App\Models\CountriesModel->findAllLocalized()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-19 23:08:41 --> mysqli_sql_exception: Column 'email_type_id' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Em...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Em...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Em...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Em...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Emails.php(48): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-19 23:08:41 --> Column 'email_type_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:08:41\', \'2023-09-19 23:08:41\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:08:41\', \'2023-09-19 23:08:41\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:08:41\', \'2023-09-19 23:08:41\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (:email_address:, :owner_iin:, :is_person:, :is_confirmed:, :email_type_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Emails.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:08:41 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-19 23:10:47 --> mysqli_sql_exception: Column 'email_type_id' cannot be null in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Em...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Em...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Em...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Em...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Emails.php(48): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-19 23:10:47 --> Column 'email_type_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:10:47\', \'2023-09-19 23:10:47\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:10:47\', \'2023-09-19 23:10:47\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (\'test@test.com\', \'830430350473\', \'\', \'\', NULL, \'2023-09-19 23:10:47\', \'2023-09-19 23:10:47\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Emails` (`email_address`, `owner_iin`, `is_person`, `is_confirmed`, `email_type_id`, `created_at`, `updated_at`) VALUES (:email_address:, :owner_iin:, :is_person:, :is_confirmed:, :email_type_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Emails.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:10:47 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:20:21 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-19 23:37:12 --> mysqli_sql_exception: Unknown column 'is_person' in 'field list' in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Ph...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ph...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ph...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ph...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Phones.php(48): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-19 23:37:12 --> Unknown column 'is_person' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'123321123\', \'225\', \'830430350473\', \'\', \'\', \'3\', \'2023-09-19 23:37:12\', \'2023-09-19 23:37:12\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'123321123\', \'225\', \'830430350473\', \'\', \'\', \'3\', \'2023-09-19 23:37:12\', \'2023-09-19 23:37:12\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'123321123\', \'225\', \'830430350473\', \'\', \'\', \'3\', \'2023-09-19 23:37:12\', \'2023-09-19 23:37:12\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (:phone_number:, :phone_extension:, :owner_iin:, :is_person:, :is_confirmed:, :phone_type_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Phones.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:37:12 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Emails.php(46): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:37:12 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-19 23:39:10 --> mysqli_sql_exception: Unknown column 'is_person' in 'field list' in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Ph...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ph...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ph...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ph...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Phones.php(48): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-19 23:39:10 --> Unknown column 'is_person' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:39:10\', \'2023-09-19 23:39:10\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:39:10\', \'2023-09-19 23:39:10\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:39:10\', \'2023-09-19 23:39:10\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (:phone_number:, :phone_extension:, :owner_iin:, :is_person:, :is_confirmed:, :phone_type_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Phones.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:39:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Emails.php(46): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:39:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-19 23:41:44 --> mysqli_sql_exception: Unknown column 'is_person' in 'field list' in /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Ph...', 0)
+#1 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ph...')
+#2 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ph...')
+#3 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ph...', Array, false)
+#4 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/app/Controllers/Phones.php(48): CodeIgniter\Model->insert(Array)
+#8 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+#9 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+#10 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/vhosts/saubolmed.kz/lab.saubolmed.kz/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-19 23:41:44 --> Unknown column 'is_person' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:41:44\', \'2023-09-19 23:41:44\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:41:44\', \'2023-09-19 23:41:44\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (\'77071232179\', \'0123\', \'830430350473\', \'\', \'\', \'2\', \'2023-09-19 23:41:44\', \'2023-09-19 23:41:44\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Phones` (`phone_number`, `phone_extension`, `owner_iin`, `is_person`, `is_confirmed`, `phone_type_id`, `created_at`, `updated_at`) VALUES (:phone_number:, :phone_extension:, :owner_iin:, :is_person:, :is_confirmed:, :phone_type_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Phones.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Phones->saveOne()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Phones))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:41:44 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Emails.php(46): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:41:44 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:43:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Emails.php(46): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Emails->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emails))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 23:43:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Model.php on line 391.
+ 1 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH/Controllers/Addresses.php(54): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Addresses->saveOne()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addresses))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
